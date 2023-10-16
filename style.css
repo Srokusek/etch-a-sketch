@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#grid {
+    display: grid;
+    width: 800px;
+    height: 800px;
+}
+
+.tile {
+    background-color: blue;
+}
+
+#btn {
+    align-items: center;
+    margin: 50px;
+    padding: 20px 30px;
+}
+
